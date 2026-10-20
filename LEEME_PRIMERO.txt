@@ -1,0 +1,10 @@
+EJECUTAR EN VS CODE
+1. Descomprime este zip.
+2. VS Code -> Archivo -> Abrir carpeta... -> elige la carpeta "tienda".
+3. Abre main.py y pulsa el boton ▶ (arriba a la derecha), o F5.
+   (Necesitas la extension "Python" de Microsoft instalada.)
+4. Para la demo del rollback: abre demo_rollback.py y pulsa ▶.
+
+Desde la terminal de VS Code (Ctrl + ñ):
+   python main.py
+   python demo_rollback.py        (en Mac/Linux: python3)
