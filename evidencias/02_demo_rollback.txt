@@ -1,0 +1,20 @@
+=== DEMOSTRACIÓN DE TRANSACCIÓN ===
+[ANTES   ] stock = 10 | ventas registradas = 0
+
+-> Venta de 3 unidades con error simulado (después del INSERT, antes del UPDATE)
+   Excepción capturada: Fallo simulado entre el INSERT de la venta y el UPDATE del inventario.
+   Se ejecutó ROLLBACK.
+[DESPUÉS ] stock = 10 | ventas registradas = 0
+
+RESULTADO: ✓ Datos intactos (rollback correcto)
+
+-> Venta normal de 3 unidades (COMMIT)
+[FINAL   ] stock = 7 | ventas registradas = 1
+
+-> Validaciones
+   ✗ El producto con id 999 no existe.
+   ✗ Stock insuficiente de 'Arduino UNO': hay 7, se pidieron 100.
+[TRAS VALIDACIONES] stock = 7 | ventas registradas = 1
+
+-> Eliminar producto con ventas (FK RESTRICT)
+   ✗ IntegrityError: FOREIGN KEY constraint failed

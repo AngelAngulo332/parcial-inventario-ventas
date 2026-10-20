@@ -1,0 +1,242 @@
+
+===== TIENDA DE COMPONENTES ELECTRÓNICOS =====
+1. Registrar producto
+2. Consultar productos
+3. Actualizar precio/cantidad
+4. Eliminar producto
+5. Registrar venta
+6. Historial de ventas
+7. Registrar venta con ERROR SIMULADO (demo rollback)
+0. Salir
+
+Opción: Nombre: Precio: Cantidad:   ✓ Producto registrado con id 1.
+
+===== TIENDA DE COMPONENTES ELECTRÓNICOS =====
+1. Registrar producto
+2. Consultar productos
+3. Actualizar precio/cantidad
+4. Eliminar producto
+5. Registrar venta
+6. Historial de ventas
+7. Registrar venta con ERROR SIMULADO (demo rollback)
+0. Salir
+
+Opción: Nombre: Precio: Cantidad:   ✓ Producto registrado con id 2.
+
+===== TIENDA DE COMPONENTES ELECTRÓNICOS =====
+1. Registrar producto
+2. Consultar productos
+3. Actualizar precio/cantidad
+4. Eliminar producto
+5. Registrar venta
+6. Historial de ventas
+7. Registrar venta con ERROR SIMULADO (demo rollback)
+0. Salir
+
+Opción: Nombre: Precio: Cantidad:   ✓ Producto registrado con id 3.
+
+===== TIENDA DE COMPONENTES ELECTRÓNICOS =====
+1. Registrar producto
+2. Consultar productos
+3. Actualizar precio/cantidad
+4. Eliminar producto
+5. Registrar venta
+6. Historial de ventas
+7. Registrar venta con ERROR SIMULADO (demo rollback)
+0. Salir
+
+Opción: 
+ID  Nombre                            Precio  Cantidad
+------------------------------------------------------
+1   Resistencia 1k                    200.00       500
+2   Arduino UNO                    85,000.00        10
+3   Sensor DHT11                   12,000.00        25
+
+===== TIENDA DE COMPONENTES ELECTRÓNICOS =====
+1. Registrar producto
+2. Consultar productos
+3. Actualizar precio/cantidad
+4. Eliminar producto
+5. Registrar venta
+6. Historial de ventas
+7. Registrar venta con ERROR SIMULADO (demo rollback)
+0. Salir
+
+Opción: 
+ID  Nombre                            Precio  Cantidad
+------------------------------------------------------
+1   Resistencia 1k                    200.00       500
+2   Arduino UNO                    85,000.00        10
+3   Sensor DHT11                   12,000.00        25
+ID del producto: Cantidad a vender:   ✓ Venta registrada. Total: $600.00
+
+===== TIENDA DE COMPONENTES ELECTRÓNICOS =====
+1. Registrar producto
+2. Consultar productos
+3. Actualizar precio/cantidad
+4. Eliminar producto
+5. Registrar venta
+6. Historial de ventas
+7. Registrar venta con ERROR SIMULADO (demo rollback)
+0. Salir
+
+Opción: 
+ID  Nombre                            Precio  Cantidad
+------------------------------------------------------
+1   Resistencia 1k                    200.00       497
+2   Arduino UNO                    85,000.00        10
+3   Sensor DHT11                   12,000.00        25
+ID del producto: Cantidad a vender:   ⚠ Fallo simulado entre el INSERT de la venta y el UPDATE del inventario.
+  ↩ ROLLBACK ejecutado: no se guardó la venta ni se modificó el inventario.
+
+===== TIENDA DE COMPONENTES ELECTRÓNICOS =====
+1. Registrar producto
+2. Consultar productos
+3. Actualizar precio/cantidad
+4. Eliminar producto
+5. Registrar venta
+6. Historial de ventas
+7. Registrar venta con ERROR SIMULADO (demo rollback)
+0. Salir
+
+Opción: 
+ID  Nombre                            Precio  Cantidad
+------------------------------------------------------
+1   Resistencia 1k                    200.00       497
+2   Arduino UNO                    85,000.00        10
+3   Sensor DHT11                   12,000.00        25
+ID del producto: Cantidad a vender:   ✓ Venta registrada. Total: $400.00
+
+===== TIENDA DE COMPONENTES ELECTRÓNICOS =====
+1. Registrar producto
+2. Consultar productos
+3. Actualizar precio/cantidad
+4. Eliminar producto
+5. Registrar venta
+6. Historial de ventas
+7. Registrar venta con ERROR SIMULADO (demo rollback)
+0. Salir
+
+Opción: 
+ID  Nombre                            Precio  Cantidad
+------------------------------------------------------
+1   Resistencia 1k                    200.00       495
+2   Arduino UNO                    85,000.00        10
+3   Sensor DHT11                   12,000.00        25
+ID del producto: Cantidad a vender:   ✗ Stock insuficiente de 'Arduino UNO': hay 10, se pidieron 50.
+
+===== TIENDA DE COMPONENTES ELECTRÓNICOS =====
+1. Registrar producto
+2. Consultar productos
+3. Actualizar precio/cantidad
+4. Eliminar producto
+5. Registrar venta
+6. Historial de ventas
+7. Registrar venta con ERROR SIMULADO (demo rollback)
+0. Salir
+
+Opción: 
+ID  Nombre                            Precio  Cantidad
+------------------------------------------------------
+1   Resistencia 1k                    200.00       495
+2   Arduino UNO                    85,000.00        10
+3   Sensor DHT11                   12,000.00        25
+ID del producto: Cantidad a vender:   ✗ El producto con id 99 no existe.
+
+===== TIENDA DE COMPONENTES ELECTRÓNICOS =====
+1. Registrar producto
+2. Consultar productos
+3. Actualizar precio/cantidad
+4. Eliminar producto
+5. Registrar venta
+6. Historial de ventas
+7. Registrar venta con ERROR SIMULADO (demo rollback)
+0. Salir
+
+Opción: 
+ID  Nombre                            Precio  Cantidad
+------------------------------------------------------
+1   Resistencia 1k                    200.00       495
+2   Arduino UNO                    85,000.00        10
+3   Sensor DHT11                   12,000.00        25
+ID del producto a actualizar: ¿Actualizar (1) precio, (2) cantidad o (3) ambos? Nueva cantidad:   ✓ Producto actualizado.
+
+===== TIENDA DE COMPONENTES ELECTRÓNICOS =====
+1. Registrar producto
+2. Consultar productos
+3. Actualizar precio/cantidad
+4. Eliminar producto
+5. Registrar venta
+6. Historial de ventas
+7. Registrar venta con ERROR SIMULADO (demo rollback)
+0. Salir
+
+Opción: 
+ID  Producto                   Cant      P.Unit         Total  Fecha
+------------------------------------------------------------------------------
+1   Resistencia 1k                3      200.00        600.00  2026-10-20 19:08:31
+2   Resistencia 1k                2      200.00        400.00  2026-10-20 19:08:31
+
+===== TIENDA DE COMPONENTES ELECTRÓNICOS =====
+1. Registrar producto
+2. Consultar productos
+3. Actualizar precio/cantidad
+4. Eliminar producto
+5. Registrar venta
+6. Historial de ventas
+7. Registrar venta con ERROR SIMULADO (demo rollback)
+0. Salir
+
+Opción: 
+ID  Nombre                            Precio  Cantidad
+------------------------------------------------------
+1   Resistencia 1k                    200.00       495
+2   Arduino UNO                    85,000.00      5000
+3   Sensor DHT11                   12,000.00        25
+ID del producto a eliminar:   ✗ No se puede eliminar: el producto tiene ventas registradas (integridad referencial).
+
+===== TIENDA DE COMPONENTES ELECTRÓNICOS =====
+1. Registrar producto
+2. Consultar productos
+3. Actualizar precio/cantidad
+4. Eliminar producto
+5. Registrar venta
+6. Historial de ventas
+7. Registrar venta con ERROR SIMULADO (demo rollback)
+0. Salir
+
+Opción: 
+ID  Nombre                            Precio  Cantidad
+------------------------------------------------------
+1   Resistencia 1k                    200.00       495
+2   Arduino UNO                    85,000.00      5000
+3   Sensor DHT11                   12,000.00        25
+ID del producto a eliminar:   ✓ Producto eliminado.
+
+===== TIENDA DE COMPONENTES ELECTRÓNICOS =====
+1. Registrar producto
+2. Consultar productos
+3. Actualizar precio/cantidad
+4. Eliminar producto
+5. Registrar venta
+6. Historial de ventas
+7. Registrar venta con ERROR SIMULADO (demo rollback)
+0. Salir
+
+Opción: 
+ID  Nombre                            Precio  Cantidad
+------------------------------------------------------
+1   Resistencia 1k                    200.00       495
+2   Arduino UNO                    85,000.00      5000
+
+===== TIENDA DE COMPONENTES ELECTRÓNICOS =====
+1. Registrar producto
+2. Consultar productos
+3. Actualizar precio/cantidad
+4. Eliminar producto
+5. Registrar venta
+6. Historial de ventas
+7. Registrar venta con ERROR SIMULADO (demo rollback)
+0. Salir
+
+Opción: ¡Hasta luego!
